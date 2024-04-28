@@ -75,11 +75,9 @@ def PlaceIt(direction, pixels, initialPos):
 		direction = "West"
 	return direction, pixels, initialPos
 
-print("sys.argv --> x, y, number_of_iterations, initialDir")
-print(sys.argv)
 img = Image.new('RGB', (2048, 1024), "black")
 pixels = img.load()
-number_of_iterations = 14
+number_of_iterations = 17
 dragonbinary = []
 gen = 0
 prevDir = "North"
